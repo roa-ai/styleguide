@@ -32,4 +32,4 @@ https://github.com/navdeep-G/samplemod
 
 
 ## 참고 문헌
--[Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
