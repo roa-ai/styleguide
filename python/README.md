@@ -2,9 +2,10 @@
 
 ## 프로젝트 구성
 뼈대는 다음의 가이드라인을 따릅니다
+
 https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html
-- Skeleton
-https://github.com/navdeep-G/samplemod
+
+- [Skeleton](https://github.com/navdeep-G/samplemod)
 
 
 ## 기본 원칙
@@ -25,10 +26,14 @@ https://github.com/navdeep-G/samplemod
 
 #### Single quote, double quote
 
-둘 중 무엇이든 한 프로젝트에선 하나의 스타일로 통일성을 유지하게끔 사용합니다.
+- 둘 중 무엇이든 한 프로젝트에선 하나의 스타일로 통일성을 유지하게끔 사용함
 
 * `docstrings`에는 triple double quotes를 사용한다
 * `\\` 이스케이프를 피하고자 둘을 잠시 혼용하는 걸 허용한다
+
+
+#### Line break
+- 한 줄에 72자가 넘어가지 않도록 작성한다
 
 
 ## 참고 문헌
