@@ -24,6 +24,13 @@ https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html
 
 ## 세부논의
 
+#### 코드 레이아웃
+- 들여쓰기는 공백 4칸을 권장
+- 한 줄은 최대 79자까지
+- 최상위(top-level) 함수와 클래스 정의는 2줄씩 띄어 씀
+- 클래스 내의 메소드 정의는 1줄씩 띄어 씀
+
+
 #### Single quote, double quote
 
 - 둘 중 무엇이든 한 프로젝트에선 하나의 스타일로 통일성을 유지하게끔 사용함
@@ -32,9 +39,12 @@ https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html
 * `\\` 이스케이프를 피하고자 둘을 잠시 혼용하는 걸 허용한다
 
 
-#### Line break
-- 한 줄에 72자가 넘어가지 않도록 작성한다
+#### 코멘트
+- 코드와 모순되는 주석은 없느니만 못함. 항상 코드에 따라 갱신할 것
+- 불필요한 주석은 달지 말 것
+- 한 줄 주석은 신중히 달 것
 
 
 ## 참고 문헌
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [Python Coding Convention](https://spoqa.github.io/2012/08/03/about-python-coding-convention.html)
